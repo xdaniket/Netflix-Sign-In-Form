@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Background_Image_Container {
+  position: relative;
+  width: 2000px;
+  background-color: black;
+}
+
+.Header {
+  position: absolute;
+  top: 31px;
+  left: 53px;
+}
+.Login_Body {
+  display: flex;
+  /* justify-content: center; */
+  margin-left: 592px;
+  opacity: 0.9;
+}
+
+.In_Container {
+  box-sizing: border-box;
+  position: absolute;
+  top: 80px;
+  padding: 28px;
+  height: 600px;
+  background-color: rgb(0 0 0 / 85%);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.Inner_Boxes {
+  margin: 34px 45px;
+}
+.Heading {
+  color: white;
+  margin-bottom: 12px;
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.Input_Box {
+  background: #252525;
+  border-radius: 4px;
+  height: 50px;
+  padding-left: 23px;
+  width: 288px;
+  margin: 6px 0;
+  font-size: 16px;
+  border: none;
+}
+
+#s1 {
+  color: red;
+  font-size: 16px;
+}
+#s2 {
+  color: red;
+  font-size: 16px;
+}
+#btn {
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  height: 50px;
+  width: 311px;
+  font-size: 18px;
+  margin-top: 38px;
+  border: none;
+  cursor: pointer;
+}
+.Bottom_Text {
+  display: flex;
+  color: #737373;
+  margin-top: 16px;
+}
+.Input_Text {
+  width: 14px;
+  background-color: #737373;
+}
+.span1 {
+  color: #b3b3b3;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.para {
+  margin-left: 111px;
+}
+.Login {
+  color: #737373;
+  font-size: 17px;
+  display: flex;
+  margin-top: 84px;
+}
+.Text {
+  color: white;
+  cursor: pointer;
+}
+.Para_Text {
+  color: #737373;
+  line-height: 19px;
+}
+.letter {
+  cursor: pointer;
+  color: rgb(58, 58, 181);
+}
+.botom {
+  margin-top: 15px;
+  font-size: 13px;
+  margin-left: 4px;
+}
+.Footer {
+  background-color: rgb(0 0 0 / 83%);
+  width: 1760px;
+  height: 270px;
+  color: #737373;
+  position: absolute;
+  bottom: 0;
+  padding-left: 250px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.Call {
+  margin: 40px 0;
+  font-size: 16px;
+}
+.information {
+  margin-bottom: 22px;
+  display: flex;
+  gap: 221px;
+}
+.information1 {
+  display: flex;
+  gap: 124px;
+}
+.image {
+  height: 20px;
+  background: grey;
+  border-radius: 45px;
+}
+.Image {
+  opacity: 0.4;
+}
+.Select1 {
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 110px;
+  display: flex;
+  gap: 20px;
+  padding: 13px;
+  margin-top: 45px;
+}
+select {
+  background-color: transparent;
+  color: #737373;
+  border: none;
+}
